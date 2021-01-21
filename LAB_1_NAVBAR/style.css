@@ -10,15 +10,20 @@ body {
 }
 
 .bar {
+  position: fixed;
   height: 50px;
   background: #3a3633;
   color: #fff;
+  width: 100%;
+
 }
 
 .center-content {
+
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .main {
@@ -29,8 +34,24 @@ body {
 img{
     width: 200px;
     height: 200px;
+    border: dashed 2px red;
 }
 
+#nav{
+
+    top: 0px;
+    z-index:1;
+}
+
+#foot{
+
+    bottom: 0px;
+    background-color: rgb(255,154,162);
+}
 .features{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    width: 100%;
 
 }
